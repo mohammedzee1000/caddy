@@ -38,25 +38,14 @@ import (
 
 	_ "github.com/mholt/caddy/caddyhttp" // plug in the HTTP server type
 	// This is where other plugins get plugged in (imported)
-	// DNS Plugins
-	"github.com/caddyserver/dnsproviders/autoradns"
-	"github.com/caddyserver/dnsproviders/dnsimple"
-	"github.com/caddyserver/dnsproviders/godaddy"
-	"github.com/caddyserver/dnsproviders/cloudfare"
-	"github.com/caddyserver/dnsproviders/azure"
-	"github.com/caddyserver/dnsproviders/ovh"
-	"github.com/caddyserver/dnsproviders/rackspace"
-	"github.com/caddyserver/dnsproviders/vultr"
-	"github.com/caddyserver/dnsproviders/googlecloud"
 
 	// HTTP Plugins
 	// - http.authz
-	"net/http"
-	"github.com/casbin/caddy-authz"
+	_ "github.com/casbin/caddy-authz"
 	// - awses
-	"github.com/miquella/caddy-awses"
+	_ "github.com/miquella/caddy-awses"
 	// - prometheus
-	"github.com/miekg/caddy-prometheus"
+	_ "github.com/miekg/caddy-prometheus"
 )
 
 func init() {
