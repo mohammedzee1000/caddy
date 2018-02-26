@@ -46,8 +46,6 @@ import (
 	_ "github.com/jung-kurt/caddy-cgi"
 	// - http.cors
 	_ "github.com/captncraig/cors"
-	// - http.login
-	_ "github.com/tarent/loginsrv"
 	// - http.git
 	_ "github.com/abiosoft/caddy-git"
 	// - http.datadog

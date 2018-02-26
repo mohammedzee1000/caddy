@@ -25,6 +25,12 @@ Caddy is a **production-ready** open-source web server that is fast, easy to use
 
 Available for Windows, Mac, Linux, BSD, Solaris, and [Android](https://github.com/mholt/caddy/wiki/Running-Caddy-on-Android).
 
+###NOTE : 
+
+This is a fork of the main caddy repository and you will find a diff with the upstream, such as it being behind and also has plugins added in for building on centos.
+
+You can find the list of added plugins in the caddy/caddymain/run.go. Do read that list. 
+
 ## Menu
 
 - [Features](#features)
