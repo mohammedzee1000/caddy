@@ -42,9 +42,27 @@ import (
 	// HTTP Plugins
 	// - http.authz
 	_ "github.com/casbin/caddy-authz"
-	// - awses
+	// - http.cgi
+	_ "github.com/jung-kurt/caddy-cgi"
+	// - http.cors
+	_ "github.com/captncraig/cors"
+	// - http.login
+	_ "github.com/tarent/loginsrv"
+	// - http.git
+	_ "github.com/abiosoft/caddy-git"
+	// - http.datadog
+	_ "github.com/payintech/caddy-datadog"
+	// - http.cache
+	_ "github.com/nicolasazrak/caddy-cache"
+	// - http.locale
+	_ "github.com/simia-tech/caddy-locale"
+	// - http.filter
+	_ "github.com/echocat/caddy-filter"
+	// - http.ratelimit
+	_ "github.com/xuqingfeng/caddy-rate-limit"
+	// - http.awses
 	_ "github.com/miquella/caddy-awses"
-	// - prometheus
+	// - http.prometheus
 	_ "github.com/miekg/caddy-prometheus"
 )
 
