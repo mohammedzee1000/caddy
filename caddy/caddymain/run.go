@@ -56,6 +56,8 @@ import (
 	_ "github.com/simia-tech/caddy-locale"
 	// - http.filter
 	_ "github.com/echocat/caddy-filter"
+	// http.upload
+	_ "github.com/wmark/caddy.upload"
 	// - http.ratelimit
 	_ "github.com/xuqingfeng/caddy-rate-limit"
 	// - http.awses
