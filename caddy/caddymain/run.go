@@ -57,7 +57,7 @@ import (
 	// - http.filter
 	_ "github.com/echocat/caddy-filter"
 	// http.upload
-	_ "github.com/wmark/caddy.upload"
+	_ "blitznote.com/src/caddy.upload"
 	// - http.ratelimit
 	_ "github.com/xuqingfeng/caddy-rate-limit"
 	// - http.awses
